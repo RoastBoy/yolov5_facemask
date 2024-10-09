@@ -17,6 +17,8 @@ try:
 except ImportError:
     wandb = None
 
+wandb = None
+
 WANDB_ARTIFACT_PREFIX = 'wandb-artifact://'
 
 
